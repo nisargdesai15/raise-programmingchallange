@@ -174,7 +174,6 @@ public class MainActivity extends ActionBarActivity {
                     mBonusPoint = getBonusPoint(jsonStr);
 
                 } catch (JSONException e) {
-                    Toast.makeText(getApplicationContext(),"Error in Response",Toast.LENGTH_LONG).show();
 
                 }
             } else {
@@ -188,6 +187,9 @@ public class MainActivity extends ActionBarActivity {
 
             if(mBonusPoint != null)
                  UpdateRewardsPoint(Integer.parseInt(mBonusPoint));
+            else {
+                Toast.makeText(getApplicationContext(),"Error in Response",Toast.LENGTH_LONG).show();
+            }
 
 
         }
