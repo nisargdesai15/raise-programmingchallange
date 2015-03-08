@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Raise Survey App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fav_brand">Which brand do you prefer for GiftCard?</string>
+    <string name="submit_survey">Submit Your Answer</string>
+
+</resources>
